@@ -1,0 +1,60 @@
+/* This is the main CSS file used in the page*/
+.intro{
+	background-color: #615f5f;
+	color: #fff;
+}
+
+.media{
+	padding: 20px;
+}
+
+.video {
+	max-height: 300px;
+}
+
+.embed-responsive-16by9 {
+    padding-bottom: 30%;
+}
+
+.article-ir{
+	background-color:  #f1f1f1;
+	margin: 25px 0;
+}
+
+.article-re{
+	margin: 25px 0;
+}
+
+hr {
+	color: black;
+}
+
+.date-text {
+	font-style: italic;
+	line-height: 16px;
+	float: left;
+} 
+
+.location-text {
+	font-style: italic;
+		line-height: 16px;
+	float: right;
+}
+
+.safety_bottom{
+	margin: 0 0 50px 0;
+}
+
+/* Conditionnal formating: lighten considerably the site for mobiles */
+
+@media screen and (max-width: 768px) {
+
+	.mobiledisplay{
+		display: none;
+	}
+
+	.safety_bottom{
+		margin: 0 0 100px 0;
+	}
+
+}
