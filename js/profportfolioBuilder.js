@@ -79,10 +79,10 @@ var alt9 = 'An IBM commercial from the time of the project, which suits it well'
 
 	//Project 10: Polak & Automotive
 var description10 ='The world of die casting is divided in two main segments: automotive and (non-automotive) industry. Both worlds do have their own requirements. The short version would be that it is easier to get an automotive contract and far harder to earn money and vice versa. Moreover you need to specialized your processes for one or the other. Whilst you can have 30% of automotive business (it offers you a baseline, a good drill) and still aim for the industry business, but having more might be quite unhealthy. <br>TTS Polak had a 60% automotive share in 2011, yet a shareholder and largest customer in the industry segment. So the strategic choise might have been cleared, especially as the automotive business was loss-making. The three main contracts with the automotive supplier needed to be renegotiated.';
-var keyProblems10 ='<li>blabla1</li><li>blabla2</li><li>blabla3</li>';
-var keySolutions10 ='<li>blabla1</li><li>blabla2</li><li>blabla3</li>';
-var output10 ='blabla1';
-var lesson10 = '<li>blabla1</li><li>blabla2</li><li>blabla3</li>';
+var keyProblems10 ='<li>Unclear legal status</li><li>Unknown position of the customers</li>';
+var keySolutions10 ='<li>Analyzed each situation with an internal and external team</li><li>Focused first on possible relationship improvements, striked later</li>';
+var output10 ='Separate solutions were founded. The major supplier accepted 10 to 15% price increase after seeing the improvements in quality and product deliveries. We found a smooth face-out solution with the smallest customer. Only one customer challenged the decision and claimed 500-600 k€ in damages. The final agreement was 1/15th of this amount and represented the remaining warranty';
+var lesson10 = '<li>Don&#39;t be scared by the automotive segment.</li><li>Take your time to negotiate and move step by step!</li>';
 var alt10 = 'A mirror holder for a utility car produced at Bal z08 (formaly TTS Polak)';
 
 
