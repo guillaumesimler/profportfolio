@@ -28,18 +28,18 @@ var alt3 = 'A picture of one casting cell at TTS Polak'
 
 		//Project 4: MDM
 var description4 ='<em>Software is eating the world - M. Andreesen</em>. And software feeds on data, so companies needs to structure their data via a master data management system in order to leverage data as a real corporate asset. <br> In the past having well structured data helped you to save IT costs, now it enables the use of big data, of mass customization, of Internet of the Things... simply of the Future' ;
-var keyProblems4 ='<li>Unshared understanding of concepts between departments and legal entity</li><li>Unclear vision about current maturity level</li>';
-var keySolutions4 ='<li>Gathered and interviewed key users throughout the corporate organization</li><li>Audited the company following IBM Data Giovernance framework</li>';
+var keyProblems4 ='<li>No common understanding of concepts between departments and legal entity</li><li>Unclear vision about current maturity level</li>';
+var keySolutions4 ='<li>Gathered and interviewed key users throughout the corporate organization</li><li>Audited the company following IBM Data Governance framework</li>';
 var output4 ='The audit showed the need to develop a data steward organization, similar to SW key user. These experienced business users will then discuss, define and document the data and its interpretation and closely monitor the implementation by the IT department and the legal entities.';
 var lesson4 = '<li>Data is too important and valuable to be left in the single care of the IT department</li><li>Master Data Management is heavy but healthy process to follow</li><li>You don&#39;t need to start big, but you need to start fast</li>';
 var alt4 = 'A presentation video of Festool and its core values';
 
 	//Project 5: Fablab
-var description5 ='In today&#39;s world design and production of small scale innovative products are no longer a challenge . Digital production capabilities -3d printing, CNC-machining- allows you to move at previously unknown pace and costs. Furthermore this equipement can be shared with egal-minded in a makerspace or a FabLab. <br>And please be conscious that it is not just for after-work, companies can use it to leverage skill acquisition, employee loyalty and innovation potential';
-var keyProblems5 ='<li>blabla1</li><li>blabla2</li><li>blabla3</li>';
-var keySolutions5 ='<li>blabla1</li><li>blabla2</li><li>blabla3</li>';
-var output5 ='blabla1';
-var lesson5 = '<li>blabla1</li><li>blabla2</li><li>blabla3</li>';
+var description5 ='In today&#39;s world design and production of small scale innovative products are no longer a challenge . Digital production capabilities -3d printing, CNC-machining- allows you to move at previously unknown pace and costs. Furthermore this equipment can be shared with liked-minded in a makerspace or a FabLab. <br>And please be conscious that it is not just for after-work, companies can use it to leverage skill acquisition, employee loyalty and innovation potential';
+var keyProblems5 ='<li>Lack of understanding the concept</li><li>Unclear expectations</li><li>Fear of its implications (<em>agile development, shared economics, ... </em>)</li>';
+var keySolutions5 ='<li>Explained the idea and proposed several implementation</li><li>Advocated for a clear mission statement with board endorsements</li><li>Proposed several implementaton concepts</li>';
+var output5 ='Festool was convinced to launch a FabLab in its facilities. When I handed over the concepts for implementation, the expectations were set, the way clear. Now time will show whether it will be accepted by the organization.';
+var lesson5 = '<li>The immense potential of digital production capabilities</li><li>The tremendous potential of <em>agile development and collaborative methods</em>, ... </li><li>... but also their disruptive effects on a organizational structure</li>';
 var alt5 = 'Illustration of a Fablab, De Waag Society, Amsterdam, picture by Rory Hyde ';
 
 
