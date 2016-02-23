@@ -61,10 +61,10 @@ var alt7 = 'A video about AVL&#39;s capacities, especially with the new digital 
 
 	//Project 8: AGT
 var description8 ='AGT Thermotechnik was my first job after finishing my studies at the WHU and getting my master at Audencia. And what a start! <br>The company was freshly acquired by the TTS group and was not really wanted: it came with the real target and as it was an important supplier of the latter, TTS kept it. However it was a money-losing supplier. <br>The management decided to renew the financial staff by hiring a new financial manager, but the remaining finance team resigned within days.';
-var keyProblems8 ='<li>blabla1</li><li>blabla2</li><li>blabla3</li>';
-var keySolutions8 ='<li>blabla1</li><li>blabla2</li><li>blabla3</li>';
-var output8 ='blabla1';
-var lesson8 = '<li></li><li>blabla2</li><li>blabla3</li>';
+var keyProblems8 ='<li>Absence of accountants and large backlog</li><li>Very tight cash situation</li><li>Wrong balance sheet (after a merger)</li>';
+var keySolutions8 ='<li>Took over the accounting personally (from textbook directly to single bookings)</li><li>Set up a cash flow management</li>';
+var output8 ='AGT had a restructured finance department and clean books at my departure. <br>It was a tough experience: I learnt accounting and cash flow management the hard way and I am grateful for this!';
+var lesson8 = '<li>Accounting in general and HGB (German GAAP) in particular</li><li>High sensitivity for balance sheet analysis</li><li>There are compliance rules and compliance rules (Sarbanes Oxley and German <em>Mittelständler</em> might not be compatible)</li>';
 var alt8 = 'the gas samplers produced by AGT';
 
 
