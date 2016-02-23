@@ -3,27 +3,27 @@
 	// the variables in order to prepare the JSON
 		
 		//Project 1: TTS Polak
-var description1 ='TTS Polak, the aluminum foundry of Festool, had been loosing millions since its integration into the TTS group. New large investments only worsen the situation draining considerable cash and management ressources for a none-core business, exhausting 3 managing directors in just 4 years.';
+var description1 ='TTS Polak, the aluminum foundry of Festool, had been loosing millions since its integration into the TTS group. New large investments only worsen the situation draining considerable cash and management resources for a none-core business, exhausting 3 managing directors in just 4 years.';
 var keyProblems1 ='<li>High resignation of staff and management </li><li>Unsustainable drive towards output with quality far beyond industry standard</li><li>Unprofitable customer mix</li>';
 var keySolutions1 ='<li>Simplified organizational structure and pay schemes, clarified decision process to reinforce accountability and front-line initiative</li><li>Put emphasis of quality (new bonus system), advocated sustainability before quantity by rewarding continuous improvement initiative</li><li>Renegotiated customer contracts (price increases, production face-out) incl. automotive Tier1-suppliers whilst pushing for a customer diversification in non-automotive segment</li>';
-var output1 ='TTS Polak became cash flow positive after 12 months and reached the break-even after 18 months. This enabled the selling of the company to a strategic investor whilst remaining supplier for the formmer owner.';
+var output1 ='TTS Polak became cash flow positive after 12 months and reached the break-even after 18 months. This enabled the selling of the company to a strategic investor whilst remaining supplier for the former owner.';
 var lesson1 = '<li>Importance of local leadership presence</li><li><em>Inter arma enim silent leges</em>, the need of restructuring specific structures and processes </li><li>Cultural differences in payment schemes</li>';
 var alt1 = 'A picture of the production site of the TTS Polak';
 
 		//Project 2: Bang & Olufsen
-var description2 ='A major Scandinavian manufacturer of exclusive music and television systems, reknown for its iconic design, was looking for a new foundry nearer to its production site in CZ.';
+var description2 ='A major Scandinavian manufacturer of exclusive music and television systems, well known for its iconic design, was looking for a new foundry nearer to its production site in CZ.';
 var keyProblems2 ='<li>Unclear underlying customer requirements</li><li>Fear-driven decision process (possible bankruptcy of previous supplier</li><li>High technological requirements with limited knowledge</li>';
-var keySolutions2 ='<li>Challenged customer&#39;s requirements at board level to place technological support, quality and availibility before saving</li><li>Potitioned ourselves as partners in explaining the consequences of the impetuous actions, helping the customer in budgeting the costs of such an programm and preparing a fall-back plan</li><li>Set up a dedicated support team for this customer, which meets the customer&#39;s designers for feasability workshops on quarterly basis </li>';
-var output2 ='The customer decided to move to Benes a Lat as a single-source supplier not just for aluminum but also for zink and a large part of the plastic parts. The transition process took a 2 year period to ensure a manageable work load and limited one-time expenses. This ensures a high customer satisfaction and multi-million revenue per year at very satisfying margins.';
+var keySolutions2 ='<li>Challenged customer&#39;s requirements at board level to place technological support, quality and availability before saving</li><li>Positioned ourselves as partners in explaining the consequences of the impetuous actions, helping the customer in budgeting the costs of such an program and preparing a fall-back plan</li><li>Set up a dedicated support team for this customer, which meets the customer&#39;s designers for feasibility workshops on quarterly basis </li>';
+var output2 ='The customer decided to move to Benes a Lat as a single-source supplier not just for aluminum but also for zinc parts and a large amount of its plastic elements. The transition process took a 2 year period to ensure a manageable workload and limited one-time expenses. This ensures a high customer satisfaction and multi-million revenue per year at quite satisfying margins.';
 var lesson2 = '<li>Importance of challenging the customer in the sales process</li><li>Organization of a multi-level sales strategy</li>';
 var alt2 = 'A video displaying Benes a Lat&#39;s production capacities, largely in low pressure die casting';
 
 		//Project 3: Sales of TTS Polak
-var description3 ='Selling a company is always an exciting project. Selling the company whilst restructuring brings everything to an higher dimension. You can add additional factors, such as a high dependance on delivered piece by the selling company.';
-var keyProblems3 ='<li>Different priorities within the selling entity</li><i>Limited corporate ressource allocation</i><li>Necessity of keeping top performer on board</li>';
-var keySolutions3 ='<li>Clarified and validated the ranked list of expectations with the supervisory board of the selling company</li><li>Set up an own team of external consultants (lawyers, M&A consultant) and internal ressource under my direct leadership</li><li>Informed the key players early and offered them alternative scenarios</li>';
+var description3 ='Selling a company is always an exciting project. Selling the company whilst restructuring brings everything to an higher dimension. You can add additional factors, such as a high dependence on delivered piece by the selling company.';
+var keyProblems3 ='<li>Different priorities within the selling entity</li><i>Limited corporate resource allocation</i><li>Necessity of keeping top performer on board</li>';
+var keySolutions3 ='<li>Clarified and validated the ranked list of expectations with the supervisory board of the selling company</li><li>Set up an own team of external consultants (lawyers, M&A consultant) and internal resource under my direct leadership</li><li>Informed the key players early and offered them alternative scenarios</li>';
 var output3 ='TTS Polak was sold to a strategic investor to the satisfaction of all parties: the schedule was largely kept, the supply of products was guaranteed, the staff was largely left untouched';
-var lesson3 = '<li>Importance of clear priorities</li><li>Avoid the "shell schock": continue with your strategy, as long as it is senseful, it will create value</li>';
+var lesson3 = '<li>Importance of clear priorities</li><li>Avoid the "shell shock": continue with your strategy! As long as it is reasonable, it will create value.</li>';
 var alt3 = 'A picture of one casting cell at TTS Polak'
 
 		//Project 4: MDM
@@ -37,7 +37,7 @@ var alt4 = 'A presentation video of Festool and its core values';
 	//Project 5: Fablab
 var description5 ='In today&#39;s world design and production of small scale innovative products are no longer a challenge . Digital production capabilities -3d printing, CNC-machining- allows you to move at previously unknown pace and costs. Furthermore this equipment can be shared with liked-minded in a makerspace or a FabLab. <br>And please be conscious that it is not just for after-work, companies can use it to leverage skill acquisition, employee loyalty and innovation potential';
 var keyProblems5 ='<li>Lack of understanding the concept</li><li>Unclear expectations</li><li>Fear of its implications (<em>agile development, shared economics, ... </em>)</li>';
-var keySolutions5 ='<li>Explained the idea and proposed several implementation</li><li>Advocated for a clear mission statement with board endorsements</li><li>Proposed several implementaton concepts</li>';
+var keySolutions5 ='<li>Explained the idea and proposed several implementation</li><li>Advocated for a clear mission statement with board endorsements</li><li>Proposed several implementation concepts</li>';
 var output5 ='Festool was convinced to launch a FabLab in its facilities. When I handed over the concepts for implementation, the expectations were set, the way clear. Now time will show whether it will be accepted by the organization.';
 var lesson5 = '<li>The immense potential of digital production capabilities</li><li>The tremendous potential of <em>agile development and collaborative methods</em>, ... </li><li>... but also their disruptive effects on a organizational structure</li>';
 var alt5 = 'Illustration of a Fablab, De Waag Society, Amsterdam, picture by Rory Hyde ';
@@ -54,16 +54,16 @@ var alt6 = 'An automotive test bed from AVL';
 	//Project 7: AVL Europe
 var description7 ='AVL Europe was freshly founded as one of three major regions. A regional VP was nominated, business unit managers hired, yet the colleagues had no reporting to monitor the performance of their units. <br>The challenge was to grant a good view for the European structure, without adding additional administrative (unproductive) work for these units.';
 var keyProblems7 ='<li>Large amount of reporting already prepared by the legal entities</li><li>High expectations from European team</li><li>Low acceptance from both local entities and head quarter</li>';
-var keySolutions7 ='<li>Used extensively existing reports (no additional requests)</li><li>Introduced highly graphical reports</li><li>Emphazised on high automation</li>';
+var keySolutions7 ='<li>Used extensively existing reports (no additional requests)</li><li>Introduced highly graphical reports</li><li>Emphasized on high automation</li>';
 var output7 ='A whole set of new management tools were developed in a couple of months. The aim was to avoid the same work on several hierarchical level. A special focus was set on a high degree of automation, as controlling employees should not be there to edit the reports, but to extract their insights. The reports were improved over time in order to become more and more predictive.';
-var lesson7 = '<li>Aim for respectful efficiency: do not have the job been done twice!</li><li>Share the insights and automated pattern recognition</li>';
+var lesson7 = '<li>Aim for respectful efficiency: do not have the job done twice!</li><li>Share the insights and automated pattern recognition</li>';
 var alt7 = 'A video about AVL&#39;s capacities, especially with the new digital solution';
 
 	//Project 8: AGT
 var description8 ='AGT Thermotechnik was my first job after finishing my studies at the WHU and getting my master at Audencia. And what a start! <br>The company was freshly acquired by the TTS group and was not really wanted: it came with the real target and as it was an important supplier of the latter, TTS kept it. However it was a money-losing supplier. <br>The management decided to renew the finance staff by hiring a new finance manager, but the remaining finance team resigned within days.';
-var keyProblems8 ='<li>Absence of accountants and large backlog</li><li>Very tight cash situation</li><li>Wrong balance sheet (after a merger)</li>';
+var keyProblems8 ='<li>Absence of accountants and large backlog</li><li>Very tight cash situation</li><li>Erroneous balance sheet</li>';
 var keySolutions8 ='<li>Took over the accounting personally (from textbook directly to single bookings)</li><li>Set up a cash flow management</li>';
-var output8 ='AGT had a restructured finance department and clean books at my departure. <br>It was a tough experience: I learnt accounting and cash flow management the hard way and I am grateful for this!';
+var output8 ='AGT had a restructured finance department and clean books at my departure. <br>It was a tough experience: I learned accounting and cash flow management the hard way and I am grateful for this!';
 var lesson8 = '<li>Accounting in general and HGB (German GAAP) in particular</li><li>High sensitivity for balance sheet analysis</li><li>There are compliance rules and compliance rules (Sarbanes Oxley and German <em>Mittelständler</em> might not be compatible)</li>';
 var alt8 = 'the gas samplers produced by AGT';
 
@@ -78,9 +78,9 @@ var alt9 = 'An IBM commercial from the time of the project, which suits it well'
 
 
 	//Project 10: Polak & Automotive
-var description10 ='The world of die casting is divided in two main segments: automotive and (non-automotive) industry. Both worlds do have their own requirements. The short version would be that it is easier to get an automotive contract and far harder to earn money and vice versa. Moreover you need to specialized your processes for one or the other. Whilst you can have 30% of automotive business (it offers you a baseline, a good drill) and still aim for the industry business, but having more might be quite unhealthy. <br>TTS Polak had a 60% automotive share in 2011, yet a shareholder and largest customer in the industry segment. So the strategic choise might have been cleared, especially as the automotive business was loss-making. The three main contracts with the automotive supplier needed to be renegotiated.';
+var description10 ='The world of die casting is divided in two main segments: automotive and (non-automotive) industry. Both worlds do have their own requirements. The short version would be that it is easier to get an automotive contract and far harder to earn money and vice versa. Moreover you need to specialized your processes for one or the other. Whilst you can have 30% of automotive business (it offers you a baseline, a good drill) and still aim for the industry business, but having more might be quite unhealthy. <br>TTS Polak had a 60% automotive share in 2011, yet a shareholder and largest customer in the industry segment. So the strategic choice might have been cleared, especially as the automotive business was loss-making. The three main contracts with the automotive supplier needed to be renegotiated.';
 var keyProblems10 ='<li>Unclear legal status</li><li>Unknown position of the customers</li>';
-var keySolutions10 ='<li>Analyzed each situation with an internal and external team</li><li>Focused first on possible relationship improvements, striked later</li>';
+var keySolutions10 ='<li>Analyzed each situation with an internal and external team</li><li>Focused first on possible relationship improvements, stroke later when opportunate</li>';
 var output10 ='Separate solutions were founded. The major supplier accepted 10 to 15% price increase after seeing the improvements in quality and product deliveries. We found a smooth face-out solution with the smallest customer. Only one customer challenged the decision and claimed 500-600 k€ in damages. The final agreement was 1/15th of this amount and represented the remaining warranty';
 var lesson10 = '<li>Don&#39;t be scared by the automotive segment.</li><li>Take your time to negotiate and move step by step!</li>';
 var alt10 = 'A mirror holder for a utility car produced at Bal z08 (formaly TTS Polak)';
