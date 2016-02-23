@@ -53,14 +53,14 @@ var alt6 = 'An automotive test bed from AVL';
 
 	//Project 7: AVL Europe
 var description7 ='AVL Europe was freshly founded as one of three major regions. A regional VP was nominated, business unit managers hired, yet the colleagues had no reporting to monitor the performance of their units. <br>The challenge was to grant a good view for the European structure, without adding additional administrative (unproductive) work for these units.';
-var keyProblems7 ='<li>blabla1</li><li>blabla2</li><li>blabla3</li>';
-var keySolutions7 ='<li>blabla1</li><li>blabla2</li><li>blabla3</li>';
-var output7 ='blabla1';
-var lesson7 = '<li>blabla1</li><li>blabla2</li><li>blabla3</li>';
+var keyProblems7 ='<li>Large amount of reporting already prepared by the legal entities</li><li>High expectations from European team</li><li>Low acceptance from both local entities and head quarter</li>';
+var keySolutions7 ='<li>Used extensively existing reports (no additional requests)</li><li>Introduced highly graphical reports</li><li>Emphazised on high automation</li>';
+var output7 ='A whole set of new management tools were developed in a couple of months. The aim was to avoid the same work on several hierarchical level. A special focus was set on a high degree of automation, as controlling employees should not be there to edit the reports, but to extract their insights. The reports were improved over time in order to become more and more predictive.';
+var lesson7 = '<li>Aim for respectful efficiency: do not have the job been done twice!</li><li>Share the insights and automated pattern recognition</li>';
 var alt7 = 'A video about AVL&#39;s capacities, especially with the new digital solution';
 
 	//Project 8: AGT
-var description8 ='AGT Thermotechnik was my first job after finishing my studies at the WHU and getting my master at Audencia. And what a start! <br>The company was freshly acquired by the TTS group and was not really wanted: it came with the real target and as it was an important supplier of the latter, TTS kept it. However it was a money-losing supplier. <br>The management decided to renew the financial staff by hiring a new financial manager, but the remaining finance team resigned within days.';
+var description8 ='AGT Thermotechnik was my first job after finishing my studies at the WHU and getting my master at Audencia. And what a start! <br>The company was freshly acquired by the TTS group and was not really wanted: it came with the real target and as it was an important supplier of the latter, TTS kept it. However it was a money-losing supplier. <br>The management decided to renew the finance staff by hiring a new finance manager, but the remaining finance team resigned within days.';
 var keyProblems8 ='<li>Absence of accountants and large backlog</li><li>Very tight cash situation</li><li>Wrong balance sheet (after a merger)</li>';
 var keySolutions8 ='<li>Took over the accounting personally (from textbook directly to single bookings)</li><li>Set up a cash flow management</li>';
 var output8 ='AGT had a restructured finance department and clean books at my departure. <br>It was a tough experience: I learnt accounting and cash flow management the hard way and I am grateful for this!';
@@ -71,7 +71,7 @@ var alt8 = 'the gas samplers produced by AGT';
 	//Project 9: IBM
 var description9 ='IBM set up ibm.com in the early 2000s in order to keep DELL at bay. This unit was selling principally via phone and internet, focusing on covering the market, identifying the leads and forwarding them to the suitable sales organization or business partner. <br>The aim of sales operations was to help the sales team in providing analysis, reporting and budgeting. The prevalent idea was that you would need more leads to generate more sales. <br>But why didn&#39;t the revenue rise with an increasing pipeline? Was there an optimum lead generation? Was the unit beyond it?';
 var keyProblems9 ='<li>Plenty of CRM data available, but unsorted</li>';
-var keySolutions9 ='<li>Developped a data analysis tool via Hyperion</li><li>Automated its publishing</li>';
+var keySolutions9 ='<li>Developed a data analysis tool via Hyperion</li><li>Automated its publishing</li>';
 var output9 ='There were indeed an optimum after which the best tactic becomes <em>loss less (leads) to gain more (revenue)</em>. The approach was new for IBM and the report was adopted in EMEA.  Though it was not widely adopted for its largest paradigm, it became used for specific sets of problems (weakness of a segment, of a product line), becoming more a marketing but a sales management tool.<br><br>This report challenging current opinion was rewarded with an <b>IBM bravo award</b>, a nearly unique recognition for a trainee.';
 var lesson9 = '<li>Challenge paradigms!</li><li>Big data is crucial (and not that scary)!</li>';
 var alt9 = 'An IBM commercial from the time of the project, which suits it well';
@@ -212,7 +212,7 @@ var projects = {
 		'companyUrl': 'https://www.avl.com/avl-france',
 		'group': 'AVL List GmbH',
 		'groupUrl': 'https://www.avl.com',
-		'position': 'Financial Manager (<em>Directeur administratif et financier</em>)',
+		'position': 'Finance Manager (<em>Directeur administratif et financier</em>)',
 		'dates': '08/2008 - 12/2011',
 		'location': 'Croissy-sur-Seine (FR)',
 		'description': description6,
@@ -256,7 +256,7 @@ var projects = {
 		'companyUrl': 'http://www.agt-thermotechnik.de/',
 		'group': 'Tooltechnic Systems AG & Co. KG',
 		'groupUrl': 'https://www.festool.com',
-		'position': 'Financial Manager',
+		'position': 'Finance Manager',
 		'dates': '08/2007 - 01/2008',
 		'location': 'Erkelenz (DE)',
 		'description': description8,
