@@ -23,7 +23,7 @@ var description3 ='Selling a company is always an exciting project. Selling the 
 var keyProblems3 ='<li>Different priorities within the selling entity</li><i>Limited corporate ressource allocation</i><li>Necessity of keeping top performer on board</li>';
 var keySolutions3 ='<li>Clarified and validated the ranked list of expectations with the supervisory board of the selling company</li><li>Set up an own team of external consultants (lawyers, M&A consultant) and internal ressource under my direct leadership</li><li>Informed the key players early and offered them alternative scenarios</li>';
 var output3 ='TTS Polak was sold to a strategic investor to the satisfaction of all parties: the schedule was largely kept, the supply of products was guaranteed, the staff was largely left untouched';
-var lesson3 = '<li>Importance of clear priorities</li><li>Avoid the "shell schock", continue with your strategy</li>';
+var lesson3 = '<li>Importance of clear priorities</li><li>Avoid the "shell schock": continue with your strategy, as long as it is senseful, it will create value</li>';
 var alt3 = 'A picture of one casting cell at TTS Polak'
 
 		//Project 4: MDM
@@ -44,11 +44,11 @@ var alt5 = 'Illustration of a Fablab, De Waag Society, Amsterdam, picture by Ror
 
 
 	//Project 6: AVL France
-var description6 ='AVL France was the <em>enfant terrible</em> of the AVL group: the budget always looked bright (with a small profit) and then the hope declined forecast after forecast... and finally a million needed to be injected each year on average. <br>It is easy to blame the finance department. A possible solution was to try to get more clarity with an SAP implementation. And when this failed, there was no other option but restructuring the department.';
-var keyProblems6 ='<li></li><li>blabla2</li><li>blabla3</li>';
-var keySolutions6 ='<li>blabla1</li><li>blabla2</li><li>blabla3</li>';
-var output6 ='blabla1';
-var lesson6 = '<li>blabla1</li><li>blabla2</li><li>blabla3</li>';
+var description6 ='AVL France was the <em>enfant terrible</em> of the AVL group: the budget always looked bright (with a small profit) and then the hope declined forecast after forecast... and finally 1 mio€ equity needed to be injected each year on average. <br>It is easy to blame the finance department. A possible solution was to try to get more clarity with an SAP implementation. And when this failed, there was no other option but restructuring the department.';
+var keyProblems6 ='<li>Unclear responsibilities between departments (accounting, order processing, controlling)</li><li>Inability to meet deadlines (monthly closing at months+20days instead of months+5 days</li><li>Lack of recognition by the remaining management team</li>';
+var keySolutions6 ='<li>Clarified the job descriptions and expectations, implemented a clear reporting line</li><li>Draw the closing process, identified the gaps and improved the process (e.g. a good estimate in 10 min is better than the precise figure 3 weeks later)(</li><li>Positioned the department as a business partner (moved the team from their offices to the front-lines, asked a lot, offered a business perspective, challenged the views)</li>';
+var output6 ='In 2009 AVL France halved its losses. In 2010 AVL France was around break-even. In 2011 it made the first profit in 15 years. <br>The strong collaboration between the service and the finance departments enabled the former to double its revenues to 4 mio€ and moved its margin from disastrous -20% to record-breaking +25%. <br><br> Moreover the finance department become one of the group&#39;s benchmark: monthly closing in 2 days, full-IFRS year-end closing (incl. IAS 11 valuation and documentation) in 6 days, ...';
+var lesson6 = '<li>IFRS balancing</li><li>Importance of the strong financial process and knowledge of the main hurdles</li>';
 var alt6 = 'An automotive test bed from AVL';
 
 	//Project 7: AVL Europe
@@ -64,7 +64,7 @@ var description8 ='AGT Thermotechnik was my first job after finishing my studies
 var keyProblems8 ='<li>blabla1</li><li>blabla2</li><li>blabla3</li>';
 var keySolutions8 ='<li>blabla1</li><li>blabla2</li><li>blabla3</li>';
 var output8 ='blabla1';
-var lesson8 = '<li>blabla1</li><li>blabla2</li><li>blabla3</li>';
+var lesson8 = '<li></li><li>blabla2</li><li>blabla3</li>';
 var alt8 = 'the gas samplers produced by AGT';
 
 
@@ -212,7 +212,7 @@ var projects = {
 		'companyUrl': 'https://www.avl.com/avl-france',
 		'group': 'AVL List GmbH',
 		'groupUrl': 'https://www.avl.com',
-		'position': 'Financial Manager (<em>Directeur administratif et financier</em>',
+		'position': 'Financial Manager (<em>Directeur administratif et financier</em>)',
 		'dates': '08/2008 - 12/2011',
 		'location': 'Croissy-sur-Seine (FR)',
 		'description': description6,
