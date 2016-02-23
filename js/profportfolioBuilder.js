@@ -11,22 +11,22 @@ var alt1 = 'A picture of the production site of the TTS Polak';
 
 //Project 2: Bang & Olufsen
 var description2 = 'A major Scandinavian manufacturer of exclusive music and television systems, well known for its iconic design, was looking for a new foundry nearer to its production site in CZ.';
-var keyProblems2 = '<li>Unclear underlying customer requirements</li><li>Fear-driven decision process (possible bankruptcy of previous supplier</li><li>High technological requirements with limited knowledge</li>';
+var keyProblems2 = '<li>Unclear underlying customer requirements</li><li>Fear-driven decision process (possible bankruptcy of previous supplier)</li><li>High technological requirements with limited knowledge</li>';
 var keySolutions2 = '<li>Challenged customer&#39;s requirements at board level to place technological support, quality and availability before saving</li><li>Positioned ourselves as partners in explaining the consequences of the impetuous actions, helping the customer in budgeting the costs of such an program and preparing a fall-back plan</li><li>Set up a dedicated support team for this customer, which meets the customer&#39;s designers for feasibility workshops on quarterly basis </li>';
 var output2 = 'The customer decided to move to Benes a Lat as a single-source supplier not just for aluminum but also for zinc parts and a large amount of its plastic elements. The transition process took a 2 year period to ensure a manageable workload and limited one-time expenses. This ensures a high customer satisfaction and multi-million revenue per year at quite satisfying margins.';
 var lesson2 = '<li>Importance of challenging the customer in the sales process</li><li>Organization of a multi-level sales strategy</li>';
 var alt2 = 'A video displaying Benes a Lat&#39;s production capacities, largely in low pressure die casting';
 
 //Project 3: Sales of TTS Polak
-var description3 = 'Selling a company is always an exciting project. Selling the company whilst restructuring brings everything to an higher dimension. You can add additional factors, such as a high dependence on delivered piece by the selling company.';
-var keyProblems3 = '<li>Different priorities within the selling entity</li><i>Limited corporate resource allocation</i><li>Necessity of keeping top performer on board</li>';
-var keySolutions3 = '<li>Clarified and validated the ranked list of expectations with the supervisory board of the selling company</li><li>Set up an own team of external consultants (lawyers, M&A consultant) and internal resource under my direct leadership</li><li>Informed the key players early and offered them alternative scenarios</li>';
+var description3 = 'Selling a company is always an exciting project. Selling the company whilst restructuring it brings everything to a higher dimension. You can add additional factors, such as a high dependence on delivered piece by the selling company.';
+var keyProblems3 = '<li>Different priorities within the selling entity</li><i>Limited corporate resource allocation</i><li>Necessity of keeping top performers on board</li>';
+var keySolutions3 = '<li>Clarified and validated a ranked list of expectations with the supervisory board of the selling company</li><li>Set up a team of external consultants (lawyers, M&A consultant) and internal resources under my direct leadership</li><li>Informed the key players early and offered them alternative scenarios</li>';
 var output3 = 'TTS Polak was sold to a strategic investor to the satisfaction of all parties: the schedule was largely kept, the supply of products was guaranteed, the staff was largely left untouched';
 var lesson3 = '<li>Importance of clear priorities</li><li>Avoid the "shell shock": continue with your strategy! As long as it is reasonable, it will create value.</li>';
 var alt3 = 'A picture of one casting cell at TTS Polak'
 
 //Project 4: MDM
-var description4 = '<em>Software is eating the world - M. Andreesen</em>. And software feeds on data, so companies needs to structure their data via a master data management system in order to leverage data as a real corporate asset. <br> In the past having well structured data helped you to save IT costs, now it enables the use of big data, of mass customization, of Internet of the Things... simply of the Future';
+var description4 = '<em>Software is eating the world - M. Andreesen</em>. And software feeds on data, so companies needs to structure their data via a master data management system in order to leverage data as a real corporate asset. <br><br>In the past having well structured data helped you to save IT costs, now it enables the use of big data, of mass customization, of Internet of the Things... simply of the Future';
 var keyProblems4 = '<li>No common understanding of concepts between departments and legal entity</li><li>Unclear vision about current maturity level</li>';
 var keySolutions4 = '<li>Gathered and interviewed key users throughout the corporate organization</li><li>Audited the company following IBM Data Governance framework</li>';
 var output4 = 'The audit showed the need to develop a data steward organization, similar to SW key user. These experienced business users will then discuss, define and document the data and its interpretation and closely monitor the implementation by the IT department and the legal entities.';
@@ -45,8 +45,8 @@ var alt5 = 'Illustration of a Fablab, De Waag Society, Amsterdam, picture by Ror
 //Project 6: AVL France
 var description6 = 'AVL France was the <em>enfant terrible</em> of the AVL group: the budget always looked bright (with a small profit) and then the hope declined forecast after forecast... and finally 1 mio€ equity needed to be injected each year on average. <br>It is easy to blame the finance department. A possible solution was to try to get more clarity with an SAP implementation. And when this failed, there was no other option but restructuring the department.';
 var keyProblems6 = '<li>Unclear responsibilities between departments (accounting, order processing, controlling)</li><li>Inability to meet deadlines (monthly closing at months+20days instead of months+5 days</li><li>Lack of recognition by the remaining management team</li>';
-var keySolutions6 = '<li>Clarified the job descriptions and expectations, implemented a clear reporting line</li><li>Draw the closing process, identified the gaps and improved the process (e.g. a good estimate in 10 min is better than the precise figure 3 weeks later)(</li><li>Positioned the department as a business partner (moved the team from their offices to the front-lines, asked a lot, offered a business perspective, challenged the views)</li>';
-var output6 = 'In 2009 AVL France halved its losses. In 2010 AVL France was around break-even. In 2011 it made the first profit in 15 years. <br>The strong collaboration between the service and the finance departments enabled the former to double its revenues to 4 mio€ and moved its margin from disastrous -20% to record-breaking +25%. <br><br> Moreover the finance department become one of the group&#39;s benchmark: monthly closing in 2 days, full-IFRS year-end closing (incl. IAS 11 valuation and documentation) in 6 days, ...';
+var keySolutions6 = '<li>Clarified the job descriptions and expectations, implemented a clear reporting line</li><li>Draw the closing process, identified the gaps and improved the process (e.g. a good estimate in 10 min is better than the precise figure 3 weeks later)</li><li>Positioned the department as a business partner (moved the team from their offices to the front-lines, asked a lot, offered a business perspective, challenged the views)</li>';
+var output6 = 'In 2009 AVL France halved its losses. In 2010 AVL France was around break-even. In 2011 it made the first profit in 15 years. <br>The strong collaboration between the service and the finance departments enabled the former to double its revenues to 4 mio€ and moved its margin from disastrous -20% to record-breaking +25%. <br><br> Moreover the finance department became one of the group&#39;s benchmarks: monthly closing in 2 days, full-IFRS year-end closing (incl. IAS 11 valuation and documentation) in 6 days, ...';
 var lesson6 = '<li>IFRS balancing</li><li>Importance of the strong financial process and knowledge of the main hurdles</li>';
 var alt6 = 'An automotive test bed from AVL';
 
@@ -54,13 +54,13 @@ var alt6 = 'An automotive test bed from AVL';
 var description7 = 'AVL Europe was freshly founded as one of three major regions. A regional VP was nominated, business unit managers hired, yet the colleagues had no reporting to monitor the performance of their units. <br>The challenge was to grant a good view for the European structure, without adding additional administrative (unproductive) work for these units.';
 var keyProblems7 = '<li>Large amount of reporting already prepared by the legal entities</li><li>High expectations from European team</li><li>Low acceptance from both local entities and head quarter</li>';
 var keySolutions7 = '<li>Used extensively existing reports (no additional requests)</li><li>Introduced highly graphical reports</li><li>Emphasized on high automation</li>';
-var output7 = 'A whole set of new management tools were developed in a couple of months. The aim was to avoid the same work on several hierarchical level. A special focus was set on a high degree of automation, as controlling employees should not be there to edit the reports, but to extract their insights. The reports were improved over time in order to become more and more predictive.';
+var output7 = 'A whole set of new management tools were developed in a couple of months. The aim was to avoid the same work on several hierarchical levels. A special focus was set on a high degree of automation, as controlling employees should not be there to edit reports, but to extract their insights. The reports were improved over time in order to become more and more predictive.';
 var lesson7 = '<li>Aim for respectful efficiency: do not have the job done twice!</li><li>Share the insights and automated pattern recognition</li>';
 var alt7 = 'A video about AVL&#39;s capacities, especially with the new digital solution';
 
 //Project 8: AGT
-var description8 = 'AGT Thermotechnik was my first job after finishing my studies at the WHU and getting my master at Audencia. And what a start! <br>The company was freshly acquired by the TTS group and was not really wanted: it came with the real target and as it was an important supplier of the latter, TTS kept it. However it was a money-losing supplier. <br>The management decided to renew the finance staff by hiring a new finance manager, but the remaining finance team resigned within days.';
-var keyProblems8 = '<li>Absence of accountants and large backlog</li><li>Very tight cash situation</li><li>Erroneous balance sheet</li>';
+var description8 = 'AGT Thermotechnik was my first job after finishing my studies at the WHU and getting my master at Audencia. And what a start! <br>The company was freshly acquired by the TTS group and was not really wanted: it came with the real target and as it was an important supplier of the latter, TTS kept it. However it was a money-losing entity. <br>The management decided to renew the finance staff by hiring a new finance manager, but the remaining finance team resigned within days.';
+var keyProblems8 = '<li>Absence of accountants and large booking backlog</li><li>Very tight cash situation</li><li>Erroneous balance sheet</li>';
 var keySolutions8 = '<li>Took over the accounting personally (from textbook directly to single bookings)</li><li>Set up a cash flow management</li>';
 var output8 = 'AGT had a restructured finance department and clean books at my departure. <br>It was a tough experience: I learned accounting and cash flow management the hard way and I am grateful for this!';
 var lesson8 = '<li>Accounting in general and HGB (German GAAP) in particular</li><li>High sensitivity for balance sheet analysis</li><li>There are compliance rules and compliance rules (Sarbanes Oxley and German <em>Mittelständler</em> might not be compatible)</li>';
@@ -71,7 +71,7 @@ var alt8 = 'the gas samplers produced by AGT';
 var description9 = 'IBM set up ibm.com in the early 2000s in order to keep DELL at bay. This unit was selling principally via phone and internet, focusing on covering the market, identifying the leads and forwarding them to the suitable sales organization or business partner. <br>The aim of sales operations was to help the sales team in providing analysis, reporting and budgeting. The prevalent idea was that you would need more leads to generate more sales. <br>But why didn&#39;t the revenue rise with an increasing pipeline? Was there an optimum lead generation? Was the unit beyond it?';
 var keyProblems9 = '<li>Plenty of CRM data available, but unsorted</li>';
 var keySolutions9 = '<li>Developed a data analysis tool via Hyperion</li><li>Automated its publishing</li>';
-var output9 = 'There were indeed an optimum after which the best tactic becomes <em>loss less (leads) to gain more (revenue)</em>. The approach was new for IBM and the report was adopted in EMEA.  Though it was not widely adopted for its largest paradigm, it became used for specific sets of problems (weakness of a segment, of a product line), becoming more a marketing but a sales management tool.<br><br>This report challenging current opinion was rewarded with an <b>IBM bravo award</b>, a nearly unique recognition for a trainee.';
+var output9 = 'There were indeed an optimum after which the best tactic becomes <em>lose less (leads) to gain more (revenue)</em>. The approach was new for IBM and the report was adopted in EMEA.  Though it was not widely adopted for its largest paradigm, it became used for specific sets of problems (weakness of a segment, of a product line), becoming more a marketing but a sales management tool.<br><br>This report challenging current opinion was rewarded with an <b>IBM bravo award</b>, a nearly unique recognition for an intern.';
 var lesson9 = '<li>Challenge paradigms!</li><li>Big data is crucial (and not that scary)!</li>';
 var alt9 = 'An IBM commercial from the time of the project, which suits it well';
 
@@ -80,9 +80,9 @@ var alt9 = 'An IBM commercial from the time of the project, which suits it well'
 var description10 = 'The world of die casting is divided in two main segments: automotive and (non-automotive) industry. Both worlds do have their own requirements. The short version would be that it is easier to get an automotive contract and far harder to earn money and vice versa. Moreover you need to specialized your processes for one or the other. Whilst you can have 30% of automotive business (it offers you a baseline, a good drill) and still aim for the industry business, but having more might be quite unhealthy. <br>TTS Polak had a 60% automotive share in 2011, yet a shareholder and largest customer in the industry segment. So the strategic choice might have been cleared, especially as the automotive business was loss-making. The three main contracts with the automotive supplier needed to be renegotiated.';
 var keyProblems10 = '<li>Unclear legal status</li><li>Unknown position of the customers</li>';
 var keySolutions10 = '<li>Analyzed each situation with an internal and external team</li><li>Focused first on possible relationship improvements, stroke later when opportunate</li>';
-var output10 = 'Separate solutions were founded. The major supplier accepted 10 to 15% price increase after seeing the improvements in quality and product deliveries. We found a smooth face-out solution with the smallest customer. Only one customer challenged the decision and claimed 500-600 k€ in damages. The final agreement was 1/15th of this amount and represented the remaining warranty';
+var output10 = 'Separate solutions were found. The major supplier accepted 10 to 15% price increase after seeing the improvements in quality and product deliveries. We found a smooth phase-out solution with the smallest customer. Only one customer challenged the decision and claimed 500-600 k€ in damages. The final agreement was 1/15th of this amount and represented the remaining warranty.';
 var lesson10 = '<li>Don&#39;t be scared by the automotive segment.</li><li>Take your time to negotiate and move step by step!</li>';
-var alt10 = 'A mirror holder for a utility car produced at Bal z08 (formaly TTS Polak)';
+var alt10 = 'A mirror holder for a utility car produced at Bal z08 (formerly TTS Polak)';
 
 
 // the JSON as such
@@ -116,7 +116,7 @@ var projects = {
                 'sales'
             ],
             'name': 'Winning an iconic global player as a customer',
-            'company': 'Bal z08 (formaly TTS Polak)',
+            'company': 'Bal z08 (formerly TTS Polak)',
             'companyUrl': 'http://www.polak.cz/uvod/index/lang-en',
             'group': 'Benes a Lat as',
             'groupUrl': 'http://www.benesalat.cz/lang-en/general-info/benes-a-lat-company.html',
@@ -280,7 +280,7 @@ var projects = {
             'companyUrl': '#',
             'group': 'IBM',
             'groupUrl': 'http://www.ibm.com',
-            'position': 'Sales Operation Analyst (Trainee)',
+            'position': 'Sales Operation Analyst (Intern)',
             'dates': '01/2005 - 06/2006',
             'location': 'Herrenberg (DE)',
             'description': description9,
@@ -297,7 +297,7 @@ var projects = {
             'tag': [
                 'sales'
             ],
-            'name': 'Renegotiating all automative contracts',
+            'name': 'Renegotiating all automotive contracts',
             'company': 'TTS Polak s.r.o.',
             'companyUrl': 'http://www.polak.cz/uvod/index/lang-en',
             'group': 'Tooltechnic Systems AG & Co. KG (Festool)',
@@ -314,7 +314,7 @@ var projects = {
             'image': 'project10',
             'video': '#',
             'alt': alt10
-        },
+        }
     ]
 };
 
