@@ -70,10 +70,10 @@ var alt8 = 'the gas samplers produced by AGT';
 
 	//Project 9: IBM
 var description9 ='IBM set up ibm.com in the early 2000s in order to keep DELL at bay. This unit was selling principally via phone and internet, focusing on covering the market, identifying the leads and forwarding them to the suitable sales organization or business partner. <br>The aim of sales operations was to help the sales team in providing analysis, reporting and budgeting. The prevalent idea was that you would need more leads to generate more sales. <br>But why didn&#39;t the revenue rise with an increasing pipeline? Was there an optimum lead generation? Was the unit beyond it?';
-var keyProblems9 ='<li>blabla1</li><li>blabla2</li><li>blabla3</li>';
-var keySolutions9 ='<li>blabla1</li><li>blabla2</li><li>blabla3</li>';
-var output9 ='blabla1';
-var lesson9 = '<li>blabla1</li><li>blabla2</li><li>blabla3</li>';
+var keyProblems9 ='<li>Plenty of CRM data available, but unsorted</li>';
+var keySolutions9 ='<li>Developped a data analysis tool via Hyperion</li><li>Automated its publishing</li>';
+var output9 ='There were indeed an optimum after which the best tactic becomes <em>loss less (leads) to gain more (revenue)</em>. The approach was new for IBM and the report was adopted in EMEA.  Though it was not widely adopted for its largest paradigm, it became used for specific sets of problems (weakness of a segment, of a product line), becoming more a marketing but a sales management tool.<br><br>This report challenging current opinion was rewarded with an <b>IBM bravo award</b>, a nearly unique recognition for a trainee.';
+var lesson9 = '<li>Challenge paradigms!</li><li>Big data is crucial (and not that scary)!</li>';
 var alt9 = 'An IBM commercial from the time of the project, which suits it well';
 
 
