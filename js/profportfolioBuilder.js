@@ -84,6 +84,8 @@ var output10 = 'Separate solutions were found. The major supplier accepted 10 to
 var lesson10 = '<li>Don&#39;t be scared by the automotive segment.</li><li>Take your time to negotiate and move step by step!</li>';
 var alt10 = 'A mirror holder for a utility car produced at Bal z08 (formerly TTS Polak)';
 
+// Button
+
 
 // the JSON as such
 var projects = {
@@ -422,23 +424,24 @@ projects.display('top');
 
 // Run the selector
 
-$('#button-finance').on('click', function() {
+function selector(_input) {
     $('section').children().remove();
-    projects.display('finance');
+    projects.display(_input);
+};
+
+$('#button-finance').on('click', function() {
+    selector('finance');
 });
 
 $('#button-management').on('click', function() {
-    $('section').children().remove();
-    projects.display('management');
+    selector('management');
 });
 
 
 $('#button-sales').on('click', function() {
-    $('section').children().remove();
-    projects.display('sales');
+    selector('sales');
 });
 
 $('#button-innovation').on('click', function() {
-    $('section').children().remove();
-    projects.display('innovation');
+    selector('innovation');
 });
