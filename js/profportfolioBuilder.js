@@ -86,6 +86,7 @@ var alt10 = 'A mirror holder for a utility car produced at Bal z08 (formerly TTS
 
 // Button
 
+var oldButton = '<div id="buttonCaption" class="mobile"> <hr> <div class="panel panel-default"><div class="text-center panel-body">The <b>%data%</b> projects are currently displayed</div></div></div>'
 
 // the JSON as such
 var projects = {
@@ -329,6 +330,8 @@ projects.display = function(_selector) {
     var data = '%data%';
     var index = 1
 
+    projects.addButton(_selector);
+
     // An if selector will be needed later
 
 
@@ -394,7 +397,7 @@ projects.display = function(_selector) {
             target.append(formatedprojectLesson);
 
             // increment with index
-            index += 1;
+            index++;
 
         }
 
@@ -415,6 +418,12 @@ projects.selection = function(_selector, element) {
     })
 
     return _result;
+}
+
+projects.addButton = function(_selector) {
+    $('#buttonCaption').remove()
+    var newButton = oldButton.replace('%data%', _selector);
+    $(newButton).insertAfter($('.btn-group'));
 }
 
 // Run the builder
