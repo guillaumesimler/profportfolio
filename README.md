@@ -35,8 +35,9 @@ Latest Update
 
 ----
 Description of the JSON "projects"
+----
 
-´* projects (main object)
+`* projects (main object)
 * tag (array of strings): the tag will be used a project selector. 5 selectors will be allowed. 
   - "top" for the top projects to be loaded as default
   - "management" for management relevant projects
@@ -58,11 +59,12 @@ Description of the JSON "projects"
 * "lesson" (variable - string, partially a list): the key learnings
 * "image": "a link to a media if available",
 * "video": "link to a media if available"
-* "alt" (string): the alternative text to the media data´
+* "alt" (string): the alternative text to the media data`
 
 
 ----
 License 
+----
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
