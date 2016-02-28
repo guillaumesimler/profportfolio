@@ -141,7 +141,7 @@ var projects = {
                 'management',
                 'finance'
             ],
-            'name': 'Selling a foundry admist its restructuring',
+            'name': 'Selling a foundry admits its restructuring',
             'company': 'TTS Polak',
             'companyUrl': 'http://www.polak.cz/uvod/index/lang-en',
             'group': 'Tooltechnic Systems AG & Co. KG (Festool)',
