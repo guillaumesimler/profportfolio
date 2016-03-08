@@ -12,15 +12,15 @@ module.exports = function(grunt) {
         // 2. add your plug-ins' config here below
 
         cssmin: {
-             target: {
+            target: {
                 files: [{
                     expand: true,
                     cwd: 'src/css/',
                     src: ['*.css', '!*.min.css'],
                     dest: 'dir/css/',
                     ext: '.min.css'
-            }]
-          }
+                }]
+            }
         },
 
         // inline CSS
@@ -30,7 +30,9 @@ module.exports = function(grunt) {
                 options: {
                 },
                 files: {
-                'dir/index.html': 'src/index.html'
+                'dir/impressum.html': 'src/impressum.html',
+                'dir/portfolio.html': 'src/portfolio.html',
+                'dir/privacy.html': 'src/privacy.html'
                 }
             }
         },
@@ -49,7 +51,9 @@ module.exports = function(grunt) {
                     'dir/index.html': 'dir/index.html'        // 'destination': 'source'
                 }
             }
-        }, 
+        },
+
+
 
         // Responsive imagine
 
@@ -80,19 +84,20 @@ module.exports = function(grunt) {
                 }]
             }
         },
-        
+
 
         // Minify images
         imagemin: {
             dynamic: {
                 files: [{
                     expand: true,
-                    cwd: 'dir/images/',
+                    cwd: 'src/images/',
                     src: ['**/*.{png,jpg,gif,JPG,GIF,PNG}'],
                     dest: 'dir/images/'
                 }]
             }
         },
+
 
         // Minify Javascript
         uglify: {
@@ -106,28 +111,24 @@ module.exports = function(grunt) {
             }
         },
 
-
+ 
         // Housekeeping functions
 
         clean: {
             dev: {
                 src: ['dir/images'],
-            },
+            }
         },
+
 
         mkdir: {
             all: {
                 options: {
-                    create: ['dir/js', 'dir/css', 'dir/images']
-                },
-            },
-        },
-
-
-
-    
-
-
+                    create: ['dir','dir/js', 'dir/css', 'dir/images']
+                
+                }
+            }
+        }
     });
 
     // 3. load your plug-ins
@@ -141,6 +142,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-mkdir');
 
     // 4. progran starter (don't forget to add the plugin)
-    grunt.registerTask('default', ['imagemin']);
+    grunt.registerTask('default', ['mkdir', 'imagemin', 'uglify', 'cssmin', 'htmlmin']);
 
 };
