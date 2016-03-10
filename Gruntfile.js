@@ -142,6 +142,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-mkdir');
 
     // 4. progran starter (don't forget to add the plugin)
-    grunt.registerTask('default', ['mkdir', 'imagemin', 'uglify', 'cssmin', 'htmlmin']);
+    grunt.registerTask('default', ['inlinecss']);
 
 };
