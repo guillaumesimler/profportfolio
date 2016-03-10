@@ -48,7 +48,9 @@ module.exports = function(grunt) {
           
                 // Dictionary of files
                 files: {                                   
-                    'dir/index.html': 'dir/index.html'        // 'destination': 'source'
+                    'dir/impressum.html': 'dir/impressum.html',
+                    'dir/portfolio.html': 'dir/portfolio.html',
+                    'dir/privacy.html': 'dir/privacy.html'       // 'destination': 'source'
                 }
             }
         },
@@ -142,6 +144,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-mkdir');
 
     // 4. progran starter (don't forget to add the plugin)
-    grunt.registerTask('default', ['inlinecss']);
+    grunt.registerTask('default', ['htmlmin']);
 
 };
