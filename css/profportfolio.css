@@ -4,6 +4,11 @@
 	color: #fff;
 }
 
+.intro_velchanos{
+	background-color: #29693f;
+	color: #fff;
+}
+
 .media{
 	padding: 20px;
 }
@@ -37,7 +42,7 @@ hr {
 
 .location-text {
 	font-style: italic;
-		line-height: 16px;
+	line-height: 16px;
 	float: right;
 }
 
@@ -57,4 +62,9 @@ hr {
 		margin: 0 0 100px 0;
 	}
 
+}
+
+
+.velchanos_temp {
+	text-align: center;
 }
