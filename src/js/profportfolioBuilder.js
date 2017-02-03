@@ -368,14 +368,14 @@ projects.display = function(_selector) {
 
             if ((index % 2) !== 0) {
                 formatedprojectStart = formatedprojectStart.replace(data, "article-ir");
-                $('section').append(formatedprojectStart);
+                $('#project_section').append(formatedprojectStart);
 
                 var target = $('#project-' + index);
                 target.append(formatedprojectText);
                 target.append(formatedprojectMedia);
             } else {
                 formatedprojectStart = formatedprojectStart.replace(data, "article-re");
-                $('section').append(formatedprojectStart);
+                $('#project_section').append(formatedprojectStart);
 
                 var target = $('#project-' + index);
                 target.append(formatedprojectMedia);
@@ -434,7 +434,7 @@ projects.display('top');
 // Run the selector
 
 function selector(_input) {
-    $('section').children().remove();
+    $('#project_section').children().remove();
     projects.display(_input);
 };
 
