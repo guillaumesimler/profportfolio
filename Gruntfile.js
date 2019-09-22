@@ -3,58 +3,54 @@
 // Configured in March 2013
 
 
-module.exports = function(grunt) {
+module.exports = function (grunt) {
 
     // 1. configuration starts here 
     grunt.initConfig({
-        pkg: grunt.file.readJSON('package.json'),
+        pkg: grunt.file.readJSON("package.json"),
 
-        // 2. add your plug-ins' config here below
+        // 2. add your plug-ins" config here below
 
         cssmin: {
             target: {
                 files: [{
                     expand: true,
-                    cwd: 'src/css/',
-                    src: ['*.css', '!*.min.css'],
-                    dest: 'dir/css/',
-                    ext: '.min.css'
+                    cwd: "src/css/",
+                    src: ["*/*.css", "*/*.min.css"],
+                    dest: "dir/css/*",
+                    ext: ".min.css"
                 }]
             }
         },
 
         // inline CSS
-
         inlinecss: {
             main: {
-                options: {
-                },
+                options: {},
                 files: {
-                'dir/impressum.html': 'src/impressum.html',
-                'dir/portfolio.html': 'src/portfolio.html',
-                'dir/privacy.html': 'src/privacy.html'
+                    "dir/impressum.html": "src/impressum.html",
+                    "dir/portfolio.html": "src/portfolio.html",
+                    "dir/privacy.html": "src/privacy.html"
                 }
             }
         },
 
         // Minify HTML
-
         htmlmin: {                                     // Task
             dist: {                                      // Target
                 options: {                                 // Target options
-                removeComments: true,
-                collapseWhitespace: true
+                    removeComments: true,
+                    collapseWhitespace: true
                 },
-          
+
                 // Dictionary of files
-                files: {                                   
-                    'dir/impressum.html': 'dir/impressum.html',
-                    'dir/portfolio.html': 'dir/portfolio.html',
-                    'dir/privacy.html': 'dir/privacy.html'       // 'destination': 'source'
+                files: {
+                    "dir/impressum.html": "dir/impressum.html",
+                    "dir/portfolio.html": "dir/portfolio.html",
+                    "dir/privacy.html": "dir/privacy.html"       // "destination": "source"
                 }
             }
         },
-
 
 
         // Responsive imagine
@@ -62,27 +58,27 @@ module.exports = function(grunt) {
         responsive_images: {
             dev: {
                 options: {
-                    engine: 'im',
+                    engine: "im",
                     sizes: [
                         {
                             width: 400,
                             quality: 80,
-                            suffix: '_2x'
+                            suffix: "_2x"
                         },
 
-                        { 
+                        {
                             width: 400,
                             quality: 40,
-                            suffix: '_1x'
+                            suffix: "_1x"
                         }
                     ]
                 },
-            
+
                 files: [{
-                  expand: true,
-                  src: ['**.{jpg,gif,png,JPG,GIF,PNG}'],
-                  cwd: 'src/images/',
-                  dest: 'dir/images/'
+                    expand: true,
+                    src: ["**.{jpg,gif,png,JPG,GIF,PNG}"],
+                    cwd: "src/images/",
+                    dest: "dir/images/"
                 }]
             }
         },
@@ -93,9 +89,9 @@ module.exports = function(grunt) {
             dynamic: {
                 files: [{
                     expand: true,
-                    cwd: 'src/images/',
-                    src: ['**/*.{png,jpg,gif,JPG,GIF,PNG}'],
-                    dest: 'dir/images/'
+                    cwd: "src/images/",
+                    src: ["**/*.{png,jpg,gif,JPG,GIF,PNG}"],
+                    dest: "dir/images/"
                 }]
             }
         },
@@ -106,19 +102,19 @@ module.exports = function(grunt) {
             my_target: {
                 files: [{
                     expand: true,
-                    cwd: 'src/js/',
-                    src: '**/*.js',
-                    dest: 'dir/js/'
+                    cwd: "src/js/",
+                    src: "**/*.js",
+                    dest: "dir/js/"
                 }]
             }
         },
 
- 
+
         // Housekeeping functions
 
         clean: {
             dev: {
-                src: ['dir/images'],
+                src: ["dir/images"],
             }
         },
 
@@ -126,24 +122,24 @@ module.exports = function(grunt) {
         mkdir: {
             all: {
                 options: {
-                    create: ['dir','dir/js', 'dir/css', 'dir/images']
-                
+                    create: ["dir", "dir/js", "dir/css", "dir/images"]
+
                 }
             }
         }
     });
 
     // 3. load your plug-ins
-    grunt.loadNpmTasks('grunt-contrib-cssmin');
-    grunt.loadNpmTasks('grunt-contrib-htmlmin');
-    grunt.loadNpmTasks('grunt-inline-css');
-    grunt.loadNpmTasks('grunt-responsive-images');
-    grunt.loadNpmTasks('grunt-contrib-clean');
-    grunt.loadNpmTasks('grunt-contrib-imagemin');
-    grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-mkdir');
+    grunt.loadNpmTasks("grunt-contrib-cssmin");
+    grunt.loadNpmTasks("grunt-contrib-htmlmin");
+    grunt.loadNpmTasks("grunt-inline-css");
+    grunt.loadNpmTasks("grunt-responsive-images");
+    grunt.loadNpmTasks("grunt-contrib-clean");
+    grunt.loadNpmTasks("grunt-contrib-imagemin");
+    grunt.loadNpmTasks("grunt-contrib-uglify");
+    grunt.loadNpmTasks("grunt-mkdir");
 
-    // 4. progran starter (don't forget to add the plugin)
-    grunt.registerTask('default', ['htmlmin']);
+    // 4. progran starter (don"t forget to add the plugin)
+    grunt.registerTask("default", ["htmlmin"]);
 
 };
