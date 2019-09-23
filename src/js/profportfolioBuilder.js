@@ -51,7 +51,8 @@ let projectBuilder = function () {
     this.buildProjectContent = function (project) {
 
         let content = HTMLprojectName.replace("%data%", project.name);
-
+        content += HTMLprojectDates.replace("%data%", project.dates);
+        content += HTMLprojectLocation.replace("%data%", project.location);
         return content;
     };
 };
