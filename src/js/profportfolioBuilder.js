@@ -73,7 +73,9 @@ let projectBuilder = function () {
             project.groupURL,
             project.group,
             project.position]);
-        content += self.fillInput(HTMLprojectDescription, [project.description])
+        content += self.fillInput(HTMLprojectDescription, [project.description]);
+        content += self.fillList("Key Challenges", project.keyProblems);
+        content += self.fillList("Key solutions", project.keySolutions);
         return content;
     };
 
@@ -90,6 +92,25 @@ let projectBuilder = function () {
         });
 
         return input_string;
+    };
+
+    /** @function fillList
+     *
+     * builds the part of the template using lists
+     *
+     * @param header
+     * @param input_list
+     * @return {string}
+     */
+    this.fillList = function(header, input_list) {
+        let output = "<b>" + header + ":</b><ul>";
+
+        input_list.forEach(function (el) {
+            output += "<li>" + el + "</li>";
+        });
+
+        output += "</ul>";
+        return output;
     };
 };
 /** Build up the elements
