@@ -76,6 +76,8 @@ let projectBuilder = function () {
         content += self.fillInput(HTMLprojectDescription, [project.description]);
         content += self.fillList("Key Challenges", project.keyProblems);
         content += self.fillList("Key solutions", project.keySolutions);
+        content += self.fillInput(HTMLprojectOutput, [project.output]);
+        content += self.fillList("Key Learnings", project.lesson);
         return content;
     };
 
@@ -98,8 +100,8 @@ let projectBuilder = function () {
      *
      * builds the part of the template using lists
      *
-     * @param header
-     * @param input_list
+     * @param header {string} the title of the lists
+     * @param input_list {list} the list to be filled in
      * @return {string}
      */
     this.fillList = function(header, input_list) {
