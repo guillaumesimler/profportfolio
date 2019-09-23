@@ -3,8 +3,7 @@
 
 let HTMLprojectStart = '<article id="project-%index%" class="row %data%"> <div class="col-xs-12 col-sm-8" id="textblock-%index%"></div></article>';
 let HTMLprojectName = '<h3>%data%</h3>';
-let HTMLprojectCompany = '<div><p>A project at <a href="%data%" target="_blank"><b>%data%</b></a>, a company of <a href="%data%" target="_blank"><b>%data%</b></a>';
-let HTMLprojectPosition = ', managed as <b>%data%</b></p></div>';
+let HTMLprojectCompany = '<div><p>A project at <a href="%data%" target="_blank"><b>%data%</b></a>, a company of <a href="%data%" target="_blank"><b>%data%</b></a>, managed as <b>%data%</b></p></div>';
 let HTMLprojectDescription = '<div class="projectdescription"><p><b>Project description:</b></b></p><p>%data%</p></div>';
 let HTMLprojectDates = '<div class="date-text">%data%</div>';
 let HTMLprojectLocation = '<div class="location-text">%data%</div><br>';
@@ -24,6 +23,14 @@ const startTag = $("#project_section");
 let projectBuilder = function () {
     let self = this;
 
+    /** @function displayProject
+     *
+     * builds the section comprising the articles
+     *
+     * @param project
+     * @param index
+     * @return {*}
+     */
     this.displayProject = function (project, index) {
 
         self.buildProjectStart(index);
@@ -38,8 +45,9 @@ let projectBuilder = function () {
 
     /** function buildProjectStart
      *
-     * builds the article tag/section for every new elements
-     * @param index
+     *  tag/section for every new elements
+     *
+     *  @param index
      */
     this.buildProjectStart = function (index) {
         let formatedProjectStart = HTMLprojectStart;
@@ -48,12 +56,40 @@ let projectBuilder = function () {
         startTag.append(formatedProjectStart);
     };
 
+    /** @function buildProjectContent
+     *
+     * composes and inserts the template element
+     *
+     * @param project
+     * @return {string}
+     */
     this.buildProjectContent = function (project) {
 
-        let content = HTMLprojectName.replace("%data%", project.name);
-        content += HTMLprojectDates.replace("%data%", project.dates);
-        content += HTMLprojectLocation.replace("%data%", project.location);
+        let content = self.fillInput(HTMLprojectName, [project.name]);
+        content += self.fillInput(HTMLprojectDates, [project.dates]);
+        content += self.fillInput(HTMLprojectLocation, [project.location]);
+        content += self.fillInput(HTMLprojectCompany, [project.companyUrl,
+            project.company,
+            project.groupURL,
+            project.group,
+            project.position]);
+        content += self.fillInput(HTMLprojectDescription, [project.description])
         return content;
+    };
+
+    /** @function fillInput
+     *
+     * inserts the content in the template
+     * @param input_string {string} part of the template to be modified
+     * @param replace_list {list} elements to be filled
+     * @return {string} the modified input_string
+     */
+    this.fillInput = function (input_string, replace_list) {
+        replace_list.forEach(function (el) {
+            input_string = input_string.replace("%data%", el);
+        });
+
+        return input_string;
     };
 };
 /** Build up the elements
