@@ -18,25 +18,26 @@
 	<title>Professional Portfolio</title>
 
 	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/profportfolio.css">
 
 	<!-- JS -->
 		<!-- import jquery-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="js/lib/jquery-3.4.1.min.js"></script>
 
 		<!--Add <picture> for Safari -->
 	<script type="text/javascript">document.createElement("picture"); </script>
 	<script type="text/javascript" src="js/picturefill.min.js" async></script>
 		<!--add bootstrap -->
-	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="js/lib/popper.min.js"></script>
+	<script src="js/lib/bootstrap.min.js"></script>
 </head>
 
 
 <body class="container">
-	<header class="row">
-		<article id="introduction" class="col-xs-12 intro">
-			<div id="title-menu" class="col-xs-12 text-right">
+	<header>
+		<article id="introduction" class="intro">
+			<div id="title-menu" class="col-xs-12 text-center">
 				<h1>Professional Portfolio of Guillaume Simler</h1>
 
 				<p>This portfolio should allow you to get an overview of key projects I managed during my career</p>
@@ -67,8 +68,9 @@
 		</article>
 
 		<hr>
-		<article>
-			<div class="col-xs-12 col-md-6 col-md-offset-3">
+		<article class="row">
+			<div class="col-md-3"> </div>
+			<div class="col-xs-12 col-md-6">
 				<h2>The main areas of my projects were</h2>
 
 				<ul>
@@ -78,10 +80,10 @@
 					<li>innovation management</li>
 				</ul>
 
-				<p>Please use the dropdown button to select the project of desired field</p>
+				<p>Please use the dropdown button to select the <b><span id="project-type"></span></b> projects.</p>
 
 
-				<div class="btn-group block-center">
+				<div class="btn-group text-center">
 					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Select another field<span class="caret"></span>
 					</button>
