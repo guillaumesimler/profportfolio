@@ -177,7 +177,7 @@ buildPage("top");
 function selector(_input) {
     $('#project_section').children().remove();
     buildPage(_input);
-};
+}
 
 $('#button-finance').on('click', function() {
     selector('finance');
