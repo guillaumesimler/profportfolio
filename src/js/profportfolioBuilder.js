@@ -1,5 +1,6 @@
 // The aim of this files is to format the JSON into html
 
+
 let HTMLprojectStart = '<article id="project-%index%" class="row %data%"> <div class="col-xs-12 col-sm-8" id="textblock-%index%"></div></article>';
 let HTMLprojectName = '<h3>%data%</h3>';
 let HTMLprojectCompany = '<div><p>A project at <a href="%data%" target="_blank"><b>%data%</b></a>, a company of <a href="%data%" target="_blank"><b>%data%</b></a>';
@@ -15,33 +16,58 @@ let HTMLprojectImage = '<div class="col-sm-4 mobile_display media"><picture> <so
 let HTMLprojectVideo = '<div class="col-sm-4 mobiledisplay embed-responsive embed-responsive-16by9 video"><iframe class="embed-responsive-item video media" src="%data%" alt="%alt%"></iframe></div>';
 
 const startTag = $("#project_section");
+
+/** function projectBuilder
+ *
+ * The projectBuilder object/class for the project
+ */
+let projectBuilder = function () {
+    let self = this;
+
+    this.displayProject = function (project, index) {
+
+        self.buildProjectStart(index);
+
+        let articleContent = self.buildProjectContent(project);
+        let domTarget = $("#textblock-" + index);
+        domTarget.append(articleContent);
+
+        index = index + 1;
+        return index;
+    };
+
+    /** function buildProjectStart
+     *
+     * builds the article tag/section for every new elements
+     * @param index
+     */
+    this.buildProjectStart = function (index) {
+        let formatedProjectStart = HTMLprojectStart;
+
+        formatedProjectStart = formatedProjectStart.replace(/%index%/g, index);
+        startTag.append(formatedProjectStart);
+    };
+
+    this.buildProjectContent = function (project) {
+
+        let content = HTMLprojectName.replace("%data%", project.name);
+
+        return content;
+    };
+};
 /** Build up the elements
  *
  */
-$.getJSON("data/input.json", function(json){
+$.getJSON("data/input.json", function (json) {
     let projects = json.projects;
     let index = 1;
-    console.log(projects.length);
-    projects.forEach(function(project) {
-        index = displayProject(project, index);
+    let builder = new projectBuilder();
+
+    projects.forEach(function (project) {
+        index = builder.displayProject(project, index);
     });
 });
 
-let displayProject = function(project, index) {
-    console.log(project.name);
-    console.log(index);
-    let formatedProjectStart = HTMLprojectStart ;
-
-    formatedProjectStart = formatedProjectStart.replace(/%index%/g, index);
-
-    startTag.append(formatedProjectStart);
-    let articleContent = HTMLprojectName.replace("%data%", project.name);
-    let domTarget = $("#textblock-" + index);
-    domTarget.append(articleContent)
-
-    index = index + 1;
-    return index;
-};
 
 // Builders
 /** display

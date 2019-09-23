@@ -29,7 +29,7 @@ module.exports = function (grunt) {
                 options: {},
                 files: {
                     "dir/impressum.html": "src/impressum.html",
-                    "dir/portfolio.html": "src/portfolio.html.html",
+                    "dir/portfolio.html": "src/portfolio-6.html.html",
                     "dir/privacy.html": "src/privacy.html"
                 }
             }
