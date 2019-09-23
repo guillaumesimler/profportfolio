@@ -118,16 +118,49 @@ let projectBuilder = function () {
 /** Build up the elements
  *
  */
-$.getJSON("data/input.json", function (json) {
-    let projects = json.projects;
-    let index = 1;
-    let builder = new projectBuilder();
+let buildPage = function(tag) {
+    $.getJSON("data/input.json", function (json) {
+        let projects = json.projects;
+        let index = 1;
+        let builder = new projectBuilder();
 
-    projects.forEach(function (project) {
-        index = builder.displayProject(project, index);
+        projects.forEach(function (project) {
+
+            if (tag == project.tag[0] || tag == project.tag[1] || tag == project.tag[2]) {
+                index = builder.displayProject(project, index);
+            }
+        });
     });
+};
+
+buildPage("top");
+
+
+/** Selection process
+ *
+ * @param _input
+ */
+function selector(_input) {
+    $('#project_section').children().remove();
+    buildPage(_input);
+};
+
+$('#button-finance').on('click', function() {
+    selector('finance');
 });
 
+$('#button-management').on('click', function() {
+    selector('management');
+});
+
+
+$('#button-sales').on('click', function() {
+    selector('sales');
+});
+
+$('#button-innovation').on('click', function() {
+    selector('innovation');
+});
 
 // Builders
 /** display
